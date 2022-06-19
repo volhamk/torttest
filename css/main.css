@@ -1,0 +1,120 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #F3E1E1;	
+}
+h1, h2 {
+	color: #845113;
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+.tortmain {
+	float: right;
+	margin-right: 325px;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo {
+	font-weight: bold;
+}
+.menulogo {
+	display: flex;
+}
+.menu {
+	margin-left: 580px;
+	position: absolute;
+}
+.howwork {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.kontakt {
+	margin-right: 120px;
+}
+.header {
+	/*background-color: #F3E1E1;*/
+	padding-top: 50px;
+}
+.title {
+	font-size: 35px;
+	width: 368px;
+	padding-bottom: 20px;
+}
+.btn {
+	color: #845113;
+	font-weight: 900;
+	background: #FF7A00;
+	border-radius: 6px;
+	display: block;
+	width: 256px;
+	padding: 20px 0px;
+	text-align: center;
+	transition: all 0.5s ease;
+	margin-top: 40px;
+}
+.wrapper {
+	padding-top: 100px;
+	padding-bottom: 140px;
+}
+.catalog {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.tortext {
+	display: flex;
+	text-align-last: 50px;	
+}
+.imgcatalog {
+	display: flex;
+	justify-content: space-between;
+}
+.text {
+	margin-left: 550px;
+}
+i {
+    border: solid brown;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;    
+}
+
+.dot.active {
+    background-color: #000000;
+}
+
+span {
+    width: 7px;
+    height: 7px;
+    border-radius: 15%;
+    background-color: gray; 
+    margin-right: 10px;
+    cursor: pointer;    
+}
+span:last-child{
+    margin-right: 0;
+}
